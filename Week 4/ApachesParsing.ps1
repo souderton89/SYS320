@@ -1,4 +1,4 @@
-﻿function ApacheLogs1() {
+﻿<#function ApacheLogs1() {
 $logsNotformatted = Get-Content c:\xampp\apache\logs\access.log
 $tableRecords = @()
 
@@ -21,3 +21,6 @@ return $tableRecords | Where-Object { $_.IP -ilike "10.*" }
 }
 $tableRecords = ApacheLogs1
 $tableRecords | Format-Table -Autosize -Wrap
+#>
+
+
