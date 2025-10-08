@@ -11,7 +11,7 @@ Get-Content C:\xampp\apache\logs\access.log | Select-String ' 200 ' -NotMatch
 
 
 
-<#
+
 
     $notfounds = Get-Content c:\xampp\apache\logs\access.log | Select-String ' 404 '
 
@@ -34,7 +34,7 @@ Get-Content C:\xampp\apache\logs\access.log | Select-String ' 200 ' -NotMatch
 
     #>
 
-function ApacheLogs1($page, $httpc, $broswer){
+<#function ApacheLogs1($page, $httpc, $broswer){
 
     $logsnotformatted = Get-Content c:\xampp\apache\logs\access.log | Select-String "/$page " | Select-String " $httpc " | Select-String " $browser/"
     return $logsnotformatted
@@ -42,3 +42,4 @@ function ApacheLogs1($page, $httpc, $broswer){
 }
 #$logsnotformatted = ApacheLogs1 "*" "200" "Chrome"
 #$logsnotformatted
+#>
