@@ -15,7 +15,7 @@ function checkUser($name){
     if($users.Count -lt 1){ return $false}
     else { return $true }
 }
- return CheckUser #= Get-LocalUser
+# return CheckUser #= Get-LocalUser
 
 <# ******************************
 # Create a function that returns a list of NAMEs AND SIDs only for not enabled users

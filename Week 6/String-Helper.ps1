@@ -13,14 +13,14 @@ function checkPassword($password){
 }
 
     elseif($password -notmatch "[0-9]"){
-    Write-Host "Numbers" | Out-String
+    Write-Host "Numbers Fail" | Out-String
     return $false
 }
     elseif ($password -notmatch "[`!`@`#`$`%`^`&`*`]"){
     Write-Host "Fail special character"
     return $false
     }
-else{
+    else{
     Write-Host "Complete"
     return $true
 }
