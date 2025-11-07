@@ -71,11 +71,10 @@ function frequentVisitors(){
 
 # function: suspiciousVisitors
 function suspiciousVisitors(){
-	bash getLogs.bash exec >/dev/null 2>&1
+	bash getLogs.bash | exec >/dev/null 2>&1
 	file="/home/champuser/sys320/week11/access.txt"
 	ioc="/home/champuser/sys320/week11/IOC.txt"
 
-#	results=$(cat "$file" | cut -d' ' -f1 | tr -d "Chrome" | tr -d "Firefox" | tr -d "Edge" | tr -d "Firefox" | uniq -c)
 
 	results=$(cat "$file" | grep -F -f "$ioc" | cut -d' ' -f1 | sort -n | uniq -c)
 
