@@ -1,0 +1,17 @@
+To: hamed.mendscole@mymail.champlain.edu
+Subject: Failed Logins
+
+Nov 13 authentication failure; user=champuser
+Nov 13 authentication failure; user=champuser
+Nov 13 authentication failure; user=champuser
+Nov 13 authentication failure; user=champuser
+Nov 13 authentication failure; user=champuser
+Nov 13 authentication failure; user=champuser
+Nov 13 authentication failure; user=champuser
+Nov 13 authentication failure; user=hamed
+Nov 13 authentication failure; user=hamed
+Nov 13 authentication failure; user=hamed
+Nov  pam_unix(sudo:auth): authentication 
+Nov  pam_unix(sudo:auth): authentication 
+Nov  pam_unix(sudo:auth): authentication 
+Nov  pam_unix(sudo:auth): authentication 

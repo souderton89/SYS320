@@ -82,6 +82,25 @@ function suspiciousVisitors(){
 	echo "$results"
 }
 
+
+function getFailedLogins(){
+ # Todo - 1
+ # a) Make a little research and experimentation to complete the function
+         file=/home/champuser/sys320/week12/auth.txt
+         bash log.bash exec >/dev/null 2>&1
+ logline=$(cat "$file" | grep "authentication failure")
+    dateAndUser=$(echo "$logline" | cut -d' ' -f1,2,7,8,16 | tr -d '\.')
+    echo "$dateAndUser"
+ # b) Generate failed logins and test
+
+ }
+
+
+
+
+
+
+
 # Manually make a list of indicators of attack (ioc.txt)
 # filter the records with this indicators of attack
 # only display the unique count of IP addresses.  
@@ -104,12 +123,14 @@ do
 	echo "[5] Frequent visitors"
 	# Suspicious visitors
 	echo "[6] Suspicious visitors "
-	echo "[7] Quit"
+	# Failed Logins
+	echo "[7] Failed Logins "
+	echo "[8] Quit"
 
 	read userInput
 	echo ""
 
-	if [[ "$userInput" == "7" ]]; then
+	if [[ "$userInput" == "8" ]]; then
 		echo "Goodbye"		
 		break
 
@@ -144,7 +165,9 @@ do
                    suspiciousVisitors
 
 
-
+	elif [[ "$userInput" == "7" ]]; then
+                    echo "Display Failed logins"
+		   getFailedLogins
 	# Display a message, if an invalid input is given
 	fi
 done
