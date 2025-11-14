@@ -7,7 +7,9 @@ function access1(){
 # a) Make a little research and experimentation to complete the function
 	file=/var/log/syslog
 	logline=$(cat "$file" | grep "File was accessed")
-   dateAndUser=$(echo "$logline" | cut -d' ' -f8,9,10,1,2,3 | tr -d '\.' | tr -d '(')
+   dateAndUser=$(echo "$logline" | cut -d' ' -f11,12,13,1,2,3 | tr -d '\.' | tr -d '(' | tr -d ')' | tail -n 5)
+
+#   dateAndUser=$(echo "$logline" | cut -d' ' -f8,9,10,1,2,3 | tr -d '\.' | tr -d '(')
    echo "$dateAndUser"
 # b) Generate failed logins and test
 
