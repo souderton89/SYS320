@@ -558,6 +558,74 @@ Nov 13 15:32:45 xubuntu sudo: pam_unix(sudo:session): session opened for user ro
 Nov 13 15:32:45 xubuntu sudo: pam_unix(sudo:session): session closed for user root
 Nov 13 15:34:01 xubuntu CRON[36171]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
 Nov 13 15:34:07 xubuntu CRON[36171]: pam_unix(cron:session): session closed for user root
+Nov 13 15:44:11 xubuntu sudo: champuser : TTY=pts/2 ; PWD=/home/champuser/sys320 ; USER=root ; COMMAND=/usr/bin/su
+Nov 13 15:44:11 xubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 15:44:11 xubuntu su: (to root) root on pts/3
+Nov 13 15:44:11 xubuntu su: pam_unix(su:session): session opened for user root(uid=0) by champuser(uid=0)
+Nov 13 16:17:01 xubuntu CRON[36299]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 16:17:01 xubuntu CRON[36299]: pam_unix(cron:session): session closed for user root
+Nov 13 16:30:01 xubuntu CRON[36305]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 16:30:01 xubuntu CRON[36305]: pam_unix(cron:session): session closed for user root
+Nov 13 17:17:01 xubuntu CRON[36317]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 17:17:01 xubuntu CRON[36317]: pam_unix(cron:session): session closed for user root
+Nov 13 17:30:01 xubuntu CRON[36322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 17:30:01 xubuntu CRON[36322]: pam_unix(cron:session): session closed for user root
+Nov 13 18:17:01 xubuntu CRON[36336]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 18:17:01 xubuntu CRON[36336]: pam_unix(cron:session): session closed for user root
+Nov 13 18:30:01 xubuntu CRON[36341]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 18:30:01 xubuntu CRON[36341]: pam_unix(cron:session): session closed for user root
+Nov 13 19:17:01 xubuntu CRON[36354]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 19:17:01 xubuntu CRON[36354]: pam_unix(cron:session): session closed for user root
+Nov 13 19:30:01 xubuntu CRON[36359]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 19:30:01 xubuntu CRON[36359]: pam_unix(cron:session): session closed for user root
+Nov 13 20:17:01 xubuntu CRON[36371]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 20:17:01 xubuntu CRON[36371]: pam_unix(cron:session): session closed for user root
+Nov 13 20:30:01 xubuntu CRON[36376]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 20:30:01 xubuntu CRON[36376]: pam_unix(cron:session): session closed for user root
+Nov 13 21:17:01 xubuntu CRON[36387]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 21:17:01 xubuntu CRON[36387]: pam_unix(cron:session): session closed for user root
+Nov 13 21:30:01 xubuntu CRON[36392]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 21:30:01 xubuntu CRON[36392]: pam_unix(cron:session): session closed for user root
+Nov 13 22:17:01 xubuntu CRON[36404]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 22:17:01 xubuntu CRON[36404]: pam_unix(cron:session): session closed for user root
+Nov 13 22:30:01 xubuntu CRON[36409]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 22:30:01 xubuntu CRON[36409]: pam_unix(cron:session): session closed for user root
+Nov 13 23:17:01 xubuntu CRON[36425]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 23:17:01 xubuntu CRON[36425]: pam_unix(cron:session): session closed for user root
+Nov 13 23:30:01 xubuntu CRON[36430]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 23:30:01 xubuntu CRON[36430]: pam_unix(cron:session): session closed for user root
+Nov 14 00:17:01 xubuntu CRON[36604]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 00:17:01 xubuntu CRON[36604]: pam_unix(cron:session): session closed for user root
+Nov 14 01:17:01 xubuntu CRON[36615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 01:17:01 xubuntu CRON[36615]: pam_unix(cron:session): session closed for user root
+Nov 14 02:17:01 xubuntu CRON[36628]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 02:17:01 xubuntu CRON[36628]: pam_unix(cron:session): session closed for user root
+Nov 14 03:10:01 xubuntu CRON[36646]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 03:10:01 xubuntu CRON[36646]: pam_unix(cron:session): session closed for user root
+Nov 14 03:17:01 xubuntu CRON[36651]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 03:17:01 xubuntu CRON[36651]: pam_unix(cron:session): session closed for user root
+Nov 14 04:17:01 xubuntu CRON[36662]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 04:17:01 xubuntu CRON[36662]: pam_unix(cron:session): session closed for user root
+Nov 14 05:17:01 xubuntu CRON[36676]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 05:17:01 xubuntu CRON[36676]: pam_unix(cron:session): session closed for user root
+Nov 14 06:17:01 xubuntu CRON[36730]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 06:17:01 xubuntu CRON[36730]: pam_unix(cron:session): session closed for user root
+Nov 14 06:25:01 xubuntu CRON[36735]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 06:25:01 xubuntu CRON[36735]: pam_unix(cron:session): session closed for user root
+Nov 14 07:17:01 xubuntu CRON[36752]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 07:17:01 xubuntu CRON[36752]: pam_unix(cron:session): session closed for user root
+Nov 14 07:30:01 xubuntu CRON[36757]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 07:30:01 xubuntu CRON[36757]: pam_unix(cron:session): session closed for user root
+Nov 14 08:17:01 xubuntu CRON[36845]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 08:17:01 xubuntu CRON[36845]: pam_unix(cron:session): session closed for user root
+Nov 14 08:30:01 xubuntu CRON[36850]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 08:30:01 xubuntu CRON[36850]: pam_unix(cron:session): session closed for user root
+Nov 14 09:17:01 xubuntu CRON[36868]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 09:17:01 xubuntu CRON[36868]: pam_unix(cron:session): session closed for user root
+Nov 14 09:30:01 xubuntu CRON[36874]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 09:30:01 xubuntu CRON[36874]: pam_unix(cron:session): session closed for user root
+Nov 14 10:17:01 xubuntu CRON[36888]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 10:17:01 xubuntu CRON[36888]: pam_unix(cron:session): session closed for user root
 Nov  2 00:17:01 xubuntu CRON[14645]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
 Nov  2 00:17:01 xubuntu CRON[14645]: pam_unix(cron:session): session closed for user root
 Nov  2 01:17:01 xubuntu CRON[14664]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
