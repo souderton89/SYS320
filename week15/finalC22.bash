@@ -1,10 +1,9 @@
 #! /bin/bash
-
 function suspiciousVisitors(){
         ioc="/home/champuser/sys320/week15/IOC3.txt"
-#	logfile="/var/log/apache2/access.log"
-	logfile="/home/champuser/sys320/week15/access.log"
-	results=$(cat "$logfile" | grep -F -f "$ioc" | tr -d "[" | cut -d' ' -f1,4,7 | sort -n )
+	logfile="/var/log/apache2/access.log"
+#	logfile="/home/champuser/sys320/week15/access.log"
+	results=$(cat "$logfile" | grep -F -f "$ioc" | tr -d "[" | cut -d' ' -f1,4,7 | sort -n | uniq -c)
 
 	echo "$results"
 
