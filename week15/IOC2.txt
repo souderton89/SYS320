@@ -1,0 +1,28 @@
+1
+		Pattern1
+		Description1
+	
+1
+		etc/passwd1
+		Access attempt to Linux users list1
+	
+1
+		cmd=1
+		Windows reverse shell attempt1
+	
+1
+		/bin/bash1
+		Linux shell attempt1
+	
+1
+		/bin/sh1
+		Linux shell attempt1
+	
+1
+		1=11
+		SQL injection attempt1
+	
+1
+		1=1--1
+		SQL injection attempt1
+	

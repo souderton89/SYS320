@@ -1,0 +1,6 @@
+etc/passwd
+/bin/sh
+1=1#
+/bin/bash
+1=1--
+cmd=
